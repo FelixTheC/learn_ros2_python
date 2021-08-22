@@ -28,7 +28,7 @@ class RobotNewsStationNode(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = RobotNewsStation()
+    node = RobotNewsStationNode()
     try:
         rclpy.spin(node)  # will hold/keep alive node
     finally:
